@@ -1,0 +1,81 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "cars_test",
+    "collectionId": "8994fecb-275e-4ec8-b27d-a8dc894e6d37",
+    "dateExported": "2024-12-19T09:28:02.491Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "dfe40eae-f6e3-47e1-9926-2cd252fc6e90",
+            "colId": "8994fecb-275e-4ec8-b27d-a8dc894e6d37",
+            "containerId": "",
+            "name": "get all",
+            "url": "http://127.0.0.1:8000/api/cars",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-12-19T08:58:57.420Z",
+            "modified": "2024-12-19T08:59:34.775Z",
+            "headers": []
+        },
+        {
+            "_id": "2f9142e3-c4de-4af2-8d80-54fc8ac6b3aa",
+            "colId": "8994fecb-275e-4ec8-b27d-a8dc894e6d37",
+            "containerId": "",
+            "name": "get car by id",
+            "url": "http://127.0.0.1:8000/api/cars/2",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-12-19T08:59:53.675Z",
+            "modified": "2024-12-19T09:06:08.591Z",
+            "headers": []
+        },
+        {
+            "_id": "b3e51f13-5115-43f7-aa0f-402158fd4a88",
+            "colId": "8994fecb-275e-4ec8-b27d-a8dc894e6d37",
+            "containerId": "",
+            "name": "create new car ",
+            "url": "http://127.0.0.1:8000/api/cars",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-12-19T09:06:38.987Z",
+            "modified": "2024-12-19T09:15:20.449Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"id\": 1,\n    \"owner_id\": 1,\n    \"brand\": \"BMW\",\n    \"model\": \"E30\",\n    \"license_plate\": \"WWW-159\"\n  \n}\n    ",
+                "form": []
+            }
+        },
+        {
+            "_id": "50ee400b-4111-4ab2-bcd9-d154a3084c9d",
+            "colId": "8994fecb-275e-4ec8-b27d-a8dc894e6d37",
+            "containerId": "",
+            "name": "delete worker",
+            "url": "http://127.0.0.1:8000/api/cars/6",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-12-19T09:14:06.771Z",
+            "modified": "2024-12-19T09:15:27.362Z",
+            "headers": []
+        },
+        {
+            "_id": "e72bdca3-a0d2-4284-90c3-7f73c66abcf7",
+            "colId": "8994fecb-275e-4ec8-b27d-a8dc894e6d37",
+            "containerId": "",
+            "name": "updatecar by id",
+            "url": "http://127.0.0.1:8000/api/cars/5",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2024-12-19T09:16:21.058Z",
+            "modified": "2024-12-19T09:19:28.001Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\"model\": \"A6\"}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "bf7IQ62x7vjdCbty1AhisoKrJPHABmGemu2kBbzGfT3sgyDe5t25oFMwCl5wX6_vQ_5zsw8ahTlSN3g1E1sNCg"
+}
